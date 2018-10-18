@@ -9,6 +9,7 @@ import (
 )
 
 func put(w http.ResponseWriter, r *http.Request) {
+	log.Println("EscapedPath: ", r.URL.EscapedPath())
 	f, e := os.Create(os.Getenv("STORAGE_ROOT") + "/objects/" +
 		strings.Split(r.URL.EscapedPath(), "/")[2])
 	if e != nil {

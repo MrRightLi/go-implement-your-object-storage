@@ -4,3 +4,5 @@ chapter1/chapter1
 */deleteOldMetadata/deleteOldMetadata
 */deleteOrphanObject/deleteOrphanObject
 */objectScanner/objectScanner
+/.idea
+/storage
